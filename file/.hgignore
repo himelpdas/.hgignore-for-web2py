@@ -54,4 +54,4 @@ applications/admin/private/hosts.deny
 cron.master
 
 syntax: re
-^applications/(?!(admin|examples|welcome|__init__)).*$
+^applications/(?(admin|examples|welcome|__init__)).*$
